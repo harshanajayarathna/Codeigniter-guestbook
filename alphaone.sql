@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 30, 2018 at 12:14 AM
+-- Generation Time: Jul 30, 2018 at 12:27 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 5.6.33
 
@@ -57,7 +57,11 @@ INSERT INTO `guestbook` (`id`, `user_name`, `user_email`, `user_address`, `user_
 (11, 'Harshana', 'harshanajayarathna@gmail.com', '10 King Street', '1233444', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
 (12, 'Harshana', 'harshanajayarathna@gmail.com', '10 King Street', 'dsf', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
 (13, 'Harshana gh', 'harshanajayarathna@gmail.com', '10 King Street', 'fgfdgdg', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
-(14, 'abc', 'harshanajayarathna@gmail.com', '10 King Street', 'abc', '::1', 'Windows 10', 'Chrome 67.0.3396.99');
+(14, 'abc', 'harshanajayarathna@gmail.com', '10 King Street', 'abc', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
+(15, 'sdada', 'harshanajayarathna@gmail.com', '10 King Street', 'asdfadsasd', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
+(16, 'aaaaaaaaaa', 'harshanajayarathna@gmail.com', '10 King Street', 'aaaaaaaaaaaaa', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
+(17, 'zzzzz', 'harshanajayarathna@gmail.com', '10 King Street', 'zzzzzz zzzzzzzzzzz', '::1', 'Windows 10', 'Chrome 67.0.3396.99'),
+(18, 'wedsa', 'harshanajayarathna@gmail.com', '10 King Street', 'as', '::1', 'Windows 10', 'Chrome 67.0.3396.99');
 
 --
 -- Indexes for dumped tables
@@ -77,7 +81,7 @@ ALTER TABLE `guestbook`
 -- AUTO_INCREMENT for table `guestbook`
 --
 ALTER TABLE `guestbook`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
