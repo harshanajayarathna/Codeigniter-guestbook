@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
 
                                 <div class="form-group">
-                                    <div class="g-recaptcha" data-sitekey="6Ld-3GYUAAAAAF_OjBvlDkD29gSMDdUIbKzJ1Del"></div>
+                                    <div class="g-recaptcha" data-sitekey="<?php echo $this->config->item('GOOGLE_SITE_KEY'); ?>"></div>
                                 </div>
 
                                 <div class="form-group">
@@ -131,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script type="text/javascript" src="<?php echo base_url() ?>bower_components/boostrap/dist/js/bootstrap.min.js" ></script>
         <script type="text/javascript" src="<?php echo base_url() ?>bower_components/custom/js/app.js" ></script>
 
-        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src='<?php echo $this->config->item('GOOGLE_CLIENT_API'); ?>'></script>
 
     </body>
 </html>

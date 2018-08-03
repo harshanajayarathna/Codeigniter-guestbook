@@ -18,6 +18,9 @@ class Guest extends CI_Controller {
         $this->load->model('Guest_model');
         $this->load->helper('string'); 
         //$this->config->load('custom_config');
+        //$this->CI =& get_instance();
+        $this->load->config('google_recaptcha');
+        
         $this->load->library('google_recaptcha');
     }
 

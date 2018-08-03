@@ -33,10 +33,13 @@ class Google_recaptcha {
      * @param string $config
      */
     public function __construct()
-    {        
-        $this->secretkey = '6Ld-3GYUAAAAAKx3WI55WJ_8RChY2Wk7nowD7U_S';
+    {    
+        $this->CI =& get_instance();
+        $this->CI->load->config('google_recaptcha');
+        
+        $this->secretkey = $this->CI->config->item('GOOGLE_SECRET_KEY');
         $this->serverip = $_SERVER['REMOTE_ADDR'];
-        $this->siteverifyurl = 'https://www.google.com/recaptcha/api/siteverify';
+        $this->siteverifyurl = $this->CI->config->item('GOOGLE_SITE_VERIFY_URL');
     }
     
     
