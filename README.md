@@ -12,9 +12,8 @@ Codeigniter Guest book with Google Recaptcha
 For the re-use this, you need to spend less than 2 minutes
 1. create google recaptcha ( go to https://www.google.com/recaptcha/admin)
 2. register site
-3. get site-key and put it in application->view->yourview.php (Ex: guest.php)
-4. get secret and put it in application->libraries->google_recaptcha.php
-5. do required configuration in application->controllers->yourcontroller.php (Ex: Guest.php)
+3. get site-key, secret and put it in application->config->google_recaptcha.php
+4. do required configuration in application->controllers->yourcontroller.php and application->views->yourview.php(Ex: Guest.php)
 
 # Author
 Harshana Jayarathna
